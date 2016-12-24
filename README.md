@@ -2,7 +2,9 @@
 Files created for assignment in week 4 of Getting and Cleaning Data
 Assignment based on data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The "run_analysis.R" program will initially check if the data file is already saved in the local work directory, if not it will be downloaded to run the program.
+The "run_analysis.R" program will initially check if the data file is already saved in the local work directory.
+If not found it will be downloaded to run the program.
+
 Program steps are as follows:
 0. Load and name all datasets
 1. Merge training & test sets to create one data set. (total of 561 variables)
