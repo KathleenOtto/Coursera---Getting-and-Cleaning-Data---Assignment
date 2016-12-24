@@ -7,9 +7,9 @@ If not found it will be downloaded to run the program.
 
 Program steps are as follows:
 
-0. Load and name all datasets  
-1. Merge training & test sets to create one data set. (total of 561 variables)  
-2. Extract only mean and std dev for each measurement 
+(0) Load and name all datasets  
+(1) Merge training & test sets to create one data set. (total of 561 variables)  
+(2) Extract only mean and std dev for each measurement 
 ⋅⋅* Search for "mean" / "Mean" / "std" / "Std" anywhere in each label = 86 variables
 ⋅⋅* Filter combined data (reduced from 561 to 86 variables)
 3. Use descriptive activity names to name the activities in the data set
