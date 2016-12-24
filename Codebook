@@ -1,11 +1,12 @@
 # Codebook 
 
-## Assignment Summary
+## Data Source
 Files created for assignment in week 4 of Getting and Cleaning DataAssignment are based on the following   
 data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 A full description is available at the site where the data was obtained:  
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones   
 
+## Program
 The "run_analysis.R" program will initially check if the data file is already saved in the local work directory.  
 If not found it will be downloaded to run the program.
 
